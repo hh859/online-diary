@@ -5,3 +5,12 @@
 .flashes h4 {
     line-height: 2;
 }
+
+.card-image img {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+  }
+
+  body {
+    background-color: rgb(250, 248, 234);
+  }
