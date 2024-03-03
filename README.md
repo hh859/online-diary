@@ -28,7 +28,8 @@
 
 ## Design and Development 
 - Here is a hand-written design idea for the project.
- ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/layout-design.jpeg)
+  
+  ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/layout-design.jpeg)
 
 ## Site Structure 
 The project comprises three pages - Home Page, which has existing entries displayed and cathegories listed for the user to choose from. The user can select a category under which an entry would be made. New Entry page allows users to create a new entry, set up a due date, if required, and mark it as urgent.
@@ -50,12 +51,6 @@ The project comprises three pages - Home Page, which has existing entries displa
 - I would like to improve visuals of the page for easier navigation
 - I would like to link this app with external sources, for increased interactivity
 - I would like extra features to each category, like BMI calculator, Food Calories calculator, Sleep Pattern calculator, and Exercise charts, to make it more dynamic and personal. 
-
-## Technologies Used 
-- Colours and designs came from [Materialize](https://materializecss.com)
-- Icons are from [Font Awesome](https://fontawesome.com)
-- [W3School](https://www.w3schools.com) helped with coding
-- [Bootstrap](https://getbootstrap.com) supplied layouts 
 
 ## Testing 
 When I initially tried to test my project on external device, the link didn't work. After spending some time trying to find te issue, I decided to transfer this project to another repository. 
@@ -97,6 +92,12 @@ A copy of the GitHub repository can be created to allow viewing and modification
 
 ### Lighthouse 
  ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/lighthouse.png)
+
+## Technologies Used 
+- Colours and designs came from [Materialize](https://materializecss.com)
+- Icons are from [Font Awesome](https://fontawesome.com)
+- [W3School](https://www.w3schools.com) helped with coding
+- [Bootstrap](https://getbootstrap.com) supplied layouts 
 
 ## Credits 
 I would like to thank my tutor Komal for the incredible support with coding and Susana for sharing valuable tips and insights.
