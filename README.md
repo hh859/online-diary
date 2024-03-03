@@ -1,110 +1,103 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Backend Milestone Project "Diary"
 
-Welcome hh859 H,
+'Diary' is a digital platform for users to maintain personal journals online. It has four different categories for more straightforward navigation and usage.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/front-page.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## User Aims:
+ - To be able to make an entry
+ - To set a date for the entry and mark it urgent, if necessary
+ - To have all entries and tasks visually represented
+ - To create a personal profile
 
-## Gitpod Reminders
+## Site Owner's Aims:
+ - Attract more users to use the app
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX Aims:
+ - Easy navigation and use
+ - Attractie interface
+ - Responsive design accessibility across different platforms
 
-`python3 -m http.server`
+## User Stories:
+ - As a user, I want to navigate through the site easily
+ - As a user, I want to record my entries
+ - As a user, I want to be able to see existing entries
+ - As a user, I want to have a reminder set to my entry 
+ - As a user, I want to have a visual display of all available categories 
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Design and Development 
+- Here is a hand-written design idea for the project.
+  
+  ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/layout-design.jpeg)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Site Structure 
+The project comprises three pages - Home Page, which has existing entries displayed and cathegories listed for the user to choose from. The user can select a category under which an entry would be made. New Entry page allows users to create a new entry, set up a due date, if required, and mark it as urgent.
 
-A blue button should appear to click: _Make Public_,
+## Features
+- #### New Entry
+  - Located on the top right of the page and will take user to the page, where a new entry can be created.
 
-Another blue button should appear to click: _Open Browser_.
+- #### Home Page
+  - Located on the top right of the page and has all categories displayed.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- #### Login/Register
+  - It would allow users to log in to their personal profiles or create a new account if they are first-time users.
+  
+### Features to add  
+- I would like to add an authentication method for the logged-in/new users, so when selecting a category, a new user wold be directed to the Register page, and existing user would be directed to New Entry page.
+- I would like to add a Profile page displaying all existing entries. The page would also provide basic information about the user.
+- I woudl like to create a more diary-style interface, with a cathegory and date picker at top and large entry window underneath it.
+- I would like to improve visuals of the page for easier navigation
+- I would like to link this app with external sources, for increased interactivity
+- I would like extra features to each category, like BMI calculator, Food Calories calculator, Sleep Pattern calculator, and Exercise charts, to make it more dynamic and personal. 
 
-To log into the Heroku toolbelt CLI:
+## Testing 
+When I initially tried to test my project on external device, the link didn't work. After spending some time trying to find te issue, I decided to transfer this project to another repository. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Deployments 
+### Github 
+This website was deployed to GitHub using the following steps:
+1. In the Github repository, navigate to Settings
+2. Then, navigate to the Pages tab 
+3. Under the Source, select the branch to master and click Save
+4. Once the page is refreshed, the link will appear, indicating the website is now live
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Forking the GitHub repository 
+A copy of the GitHub repository can be created to allow viewing and modification without affecting the original repository.
+1. Locate the repository
+2. On the right-hand side of the page opposite your repository name is a button called 'Fork'
+3. Click it to have a copy of the repository saved to your GitHub account
 
-------
+### Creating a local clone 
+1. Locate the repository
+2. Find a 'Code' button and click on the arrow 
+3. To clone with HTTPS, click on the clipboard to copy the URL
+4. In the Gitpod, change the directory to the chosen location
+5. Type git clone, and then paste the URL from step 3
+6. Press 'enter' to have a local clone created
 
-## Release History
+## Validations
+### HTML Validator 
+ ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/html-validator.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### CSS Validator 
+ ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/css-validator.png)
 
-**September 20 2023:** Update Python version to 3.9.17.
+### Javascript Validator 
+ ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/js-validator.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Python Validator 
+ ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/python-validator.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Lighthouse 
+ ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/lighthouse.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Technologies Used 
+- Colours and designs came from [Materialize](https://materializecss.com)
+- Icons are from [Font Awesome](https://fontawesome.com)
+- [W3School](https://www.w3schools.com) helped with coding
+- [Bootstrap](https://getbootstrap.com) supplied layouts 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Credits 
+I would like to thank my tutor Komal for the incredible support with coding and Susana for sharing valuable tips and insights.
