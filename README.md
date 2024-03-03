@@ -19,15 +19,15 @@
  - Responsive design accessibility across different platforms
 
 ## User Stories:
- - I want to navigate through the site easily
- - I want to record my entries
- - I want to be able to see existing entries
- - I want to have a reminder set to my entry 
- - I want to have a visual display of all available categories 
+ - As a user, I want to navigate through the site easily
+ - As a user, I want to record my entries
+ - As a user, I want to be able to see existing entries
+ - As a user, I want to have a reminder set to my entry 
+ - As a user, I want to have a visual display of all available categories 
 
 
 ## Design and Development 
-Here is a hand-written design idea for the project.
+- Here is a hand-written design idea for the project.
  ![alt text](https://github.com/hh859/online-diary/blob/main/static/images/layout-design.jpeg)
 
 ## Site Structure 
@@ -35,13 +35,13 @@ The project comprises three pages - Home Page, which has existing entries displa
 
 ## Features
 - #### New Entry
-  Located on the top right of the page and will take user to the page, where a new entry can be created.
+  - Located on the top right of the page and will take user to the page, where a new entry can be created.
 
 - #### Home Page
-  Located on the top right of the page and has all categories displayed.
+  - Located on the top right of the page and has all categories displayed.
 
 - #### Login/Register
-  It would allow users to log in to their personal profiles or create a new account if they are first-time users.
+  - It would allow users to log in to their personal profiles or create a new account if they are first-time users.
   
 ### Features to add  
 - I would like to add an authentication method for the logged-in/new users, so when selecting a category, a new user wold be directed to the Register page, and existing user would be directed to New Entry page.
