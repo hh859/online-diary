@@ -23,7 +23,6 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_tasks")
 def get_tasks():
-    # tasks = mongo.db.tasks.find()
     tasks = list(mongo.db.tasks.find())
     print(tasks)
     return render_template("tasks.html", tasks=tasks)
